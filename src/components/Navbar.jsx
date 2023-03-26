@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { AuthContext, useAuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/AuthContext";
 import avatar from "../assets/icons/avatar.png";
 import Switch from "./Switch";
 import FavComp from "./FavComp";
